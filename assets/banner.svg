@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="t d">
+  <title id="t">Esteban López Acuña — Software Engineer</title>
+  <desc id="d">Terminal-style banner: esteban@portfolio:~$ whoami, Senior full-stack engineer based in Berlin.</desc>
+  <style>
+    .mono { font-family: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .prompt { fill: #5cf28a; font-size: 15px; }
+    .dim { fill: #6b7480; font-size: 14px; }
+    .name { fill: #5cf28a; font-size: 40px; font-weight: 700; }
+    .body { fill: #d6dcd6; font-size: 16px; }
+    .tag { fill: #5cf28a; font-size: 13px; }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="898" height="228" rx="10" fill="#0a0e0a" stroke="#1f2a1f" stroke-width="2"/>
+  <line x1="1" y1="38" x2="899" y2="38" stroke="#1f2a1f" stroke-width="2"/>
+  <circle cx="24" cy="20" r="6" fill="#e5484d"/>
+  <circle cx="46" cy="20" r="6" fill="#f6a609"/>
+  <circle cx="68" cy="20" r="6" fill="#21c46b"/>
+  <text x="450" y="25" text-anchor="middle" class="mono dim">esteban@portfolio: ~</text>
+
+  <!-- content -->
+  <text x="28" y="76" class="mono prompt">esteban@portfolio:~$ <tspan fill="#d6dcd6">whoami</tspan></text>
+  <text x="28" y="100" class="mono dim">// software engineer · berlin, germany</text>
+
+  <text x="28" y="150" class="mono name">Esteban López Acuña<tspan fill="#d6dcd6">.</tspan></text>
+
+  <text x="28" y="182" class="mono body">Senior full-stack engineer from Costa Rica, based in Berlin.</text>
+  <text x="28" y="206" class="mono tag">[ open to work ]  [ React · Next.js ]  [ TypeScript ]  [ 10+ yrs ]</text>
+
+  <!-- blinking cursor -->
+  <rect x="612" y="62" width="9" height="17" fill="#5cf28a">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
